@@ -177,6 +177,7 @@
     <grid name="lnd">T31</grid>
     <grid name="ocnice">gx3v7</grid>
     <mask>gx3v7</mask>
+    <desc>Low resolution 96x48 ATM grid and 3-degree ocn grid.</desc>
   </model_grid>
 
   <model_grid alias="T31_g37_gris4" compset="_CISM">
@@ -216,6 +217,7 @@
     <grid name="lnd">T42</grid>
     <grid name="ocnice">T42</grid>
     <mask>gx1v7</mask>
+    <desc>T42 (128x64) Gaussian ATM grid</desc>
   </model_grid>
 
   <model_grid alias="T42_T42_mg16" not_compset="_POP">
@@ -279,6 +281,7 @@
     <grid name="lnd">T62</grid>
     <grid name="ocnice">tx1v1</grid>
     <mask>tx1v1</mask>
+    <desc>CORE2 DATM grid and tripolar 1 degree workhorse POP grid</desc>
   </model_grid>
 
   <model_grid alias="T62_n13" not_compset="_CAM">
@@ -307,6 +310,7 @@
     <grid name="lnd">T62</grid>
     <grid name="ocnice">tx0.1v3</grid>
     <mask>tx0.1v3</mask>
+    <desc>CORE2 DATM grid with tripolar 0.1 degree high resolution POP grid</desc>
   </model_grid>
 
   <model_grid alias="TL319_g17" compset="DROF%JRA-1p4">
@@ -315,6 +319,7 @@
     <grid name="ocnice">gx1v7</grid>
     <grid name="rof">JRA025v2</grid>
     <mask>gx1v7</mask>
+    <desc>CORE2 DATM grid with tripolar 0.1 degree high resolution POP grid</desc>
   </model_grid>
 
   <model_grid alias="TL319_g17_wg17" compset="DROF%JRA">
@@ -332,13 +337,15 @@
     <grid name="ocnice">gx1v7</grid>
     <grid name="rof">JRA025</grid>
     <mask>gx1v7</mask>
+    <desc>0.5 degree JRA DATM grid with tripolar 1 degree workhorse POP grid</desc>
   </model_grid>
 
-  <model_grid alias="TL319_t061" not_compset="_CAM">
+  <model_grid alias="TL319_t061" not_compset="_CAM" compset="_MOM6">
     <grid name="atm">TL319</grid>
     <grid name="lnd">TL319</grid>
     <grid name="ocnice">tx0.66v1</grid>
     <grid name="rof">JRA025</grid>
+    <desc>0.5 degree JRA DATM grid with tripolar 0.66 degree workhorse MOM6 grid</desc>
   </model_grid>
 
   <model_grid alias="TL319_t061_wt061" not_compset="_CAM">
@@ -361,6 +368,7 @@
     <grid name="lnd">TL319</grid>
     <grid name="ocnice">tx0.1v3</grid>
     <grid name="rof">JRA025v2</grid>
+    <desc>0.5 degree JRA DATM grid with tripolar 0.1 degree high resolution POP grid</desc>
   </model_grid>
 
   <model_grid alias="TL319_t13" not_compset="_CAM">
@@ -378,35 +386,38 @@
     <mask>gx1v7</mask>
   </model_grid>
 
-  <model_grid alias="TL639_t061" not_compset="_CAM">
+  <model_grid alias="TL639_t061" not_compset="_CAM" compset="_MOM6">
     <grid name="atm">TL639</grid>
     <grid name="lnd">TL639</grid>
     <grid name="ocnice">tx0.66v1</grid>
     <!--<grid name="rof">JRA025</grid>-->
   </model_grid>
 
-  <model_grid alias="T62_t061" not_compset="_CAM">
+  <model_grid alias="T62_t061" not_compset="_CAM" compset="_MOM6">
     <grid name="atm">T62</grid>
     <grid name="lnd">T62</grid>
     <grid name="ocnice">tx0.66v1</grid>
+    <desc>CORE2 DATM grid with tripolar 0.66 degree workhorse MOM6 grid</desc>
   </model_grid>
 
-  <model_grid alias="T62_t061_wt061" not_compset="_CAM">
+  <model_grid alias="T62_t061_wt061" not_compset="_CAM" compset="_MOM6">
     <grid name="atm">T62</grid>
     <grid name="lnd">T62</grid>
     <grid name="ocnice">tx0.66v1</grid>
     <grid name="wav">tx0.66v1</grid>
   </model_grid>
 
-  <model_grid alias="T62_t025" not_compset="_CAM">
+  <model_grid alias="T62_t025" not_compset="_CAM" compset="_MOM6">
     <grid name="atm">T62</grid>
     <grid name="lnd">T62</grid>
     <grid name="ocnice">tx0.25v1</grid>
+    <desc>CORE2 DATM grid with tripolar 0.25 degree MOM6 grid</desc>
   </model_grid>
-  <model_grid alias="f09_t061">
+  <model_grid alias="f09_t061" compset="_MOM6">
     <grid name="atm">0.9x1.25</grid>
     <grid name="lnd">0.9x1.25</grid>
     <grid name="ocnice">tx0.66v1</grid>
+    <desc>FV 1-deg ATM grid with 0.66 degree workhorse MOM6 grid</desc>
   </model_grid>
 
   <model_grid alias="T62_g16" not_compset="_CAM">
@@ -414,6 +425,7 @@
     <grid name="lnd">T62</grid>
     <grid name="ocnice">gx1v6</grid>
     <mask>gx1v6</mask>
+    <desc>CORE2 DATM grid with 1 degree POP/MOM6 grid</desc>
   </model_grid>
 
   <model_grid alias="T62_g17" not_compset="_CAM">
@@ -421,6 +433,7 @@
     <grid name="lnd">T62</grid>
     <grid name="ocnice">gx1v7</grid>
     <mask>gx1v7</mask>
+    <desc>CORE2 DATM grid with 1 degree workhorse POP grid</desc>
   </model_grid>
 
   <model_grid alias="T62_g17_wg17" not_compset="_CAM">
@@ -508,6 +521,7 @@
     <grid name="lnd">0.9x1.25</grid>
     <grid name="ocnice">gx1v7</grid>
     <mask>gx1v7</mask>
+    <desc>FV 1-deg grid with 1 degree workhorse POP grid</desc>
   </model_grid>
 
   <model_grid alias="f09_n13">
@@ -591,6 +605,7 @@
     <grid name="lnd">0.9x1.25</grid>
     <grid name="ocnice">0.9x1.25</grid>
     <mask>gx1v7</mask>
+    <desc>FV 1-degree grid with 1-degree ocean mask</desc>
   </model_grid>
 
   <model_grid alias="f09_f09_mg17_rHDMA" not_compset="_POP" compset="MIZUROUTE">
@@ -629,6 +644,7 @@
     <grid name="lnd">1.9x2.5</grid>
     <grid name="ocnice">gx1v7</grid>
     <mask>gx1v7</mask>
+    <desc>FV 2-deg grid with 1 degree workhorse POP grid</desc>
   </model_grid>
 
   <model_grid alias="f19_g16_r01">
@@ -683,6 +699,7 @@
     <grid name="lnd">1.9x2.5</grid>
     <grid name="ocnice">1.9x2.5</grid>
     <mask>gx1v6</mask>
+    <desc>FV 2-deg grid</desc>
   </model_grid>
 
   <model_grid alias="f19_f19_mnull" compset="_DOCN%SAQUAP|DOCN%DAQUAP" >
@@ -697,6 +714,7 @@
     <grid name="lnd">1.9x2.5</grid>
     <grid name="ocnice">1.9x2.5</grid>
     <mask>gx1v7</mask>
+    <desc>FV 2-deg grid with 1 degree POP mask</desc>
   </model_grid>
 
   <model_grid alias="f19_f19_mg17_rHDMA" not_compset="_POP" compset="MIZUROUTE">
@@ -889,6 +907,7 @@
     <grid name="lnd">ne30np4</grid>
     <grid name="ocnice">ne30np4</grid>
     <mask>gx1v7</mask>
+    <desc>Spectral Element 1 degree grid</desc>
   </model_grid>
 
   <model_grid alias="ne60_g16">
