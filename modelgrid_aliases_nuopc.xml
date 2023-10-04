@@ -24,6 +24,19 @@
     <grid name="iac"       compset="SIAC"        >null</grid>
   </model_grid_defaults>
 
+    <model_grid alias="T62_s1v1" not_compset="_CAM">
+    <grid name="atm">T62</grid>
+    <grid name="lnd">T62</grid>
+    <grid name="ocnice">simple1v1</grid>
+  </model_grid>
+
+
+    <model_grid alias="custom">
+    <grid name="atm">custom_atm</grid>
+    <grid name="lnd">custom_lnd</grid>
+    <grid name="ocnice">custom_ocn</grid>
+  </model_grid>
+
   <model_grid alias="g16_g16" compset="DATM.+DROF">
     <grid name="atm">gx1v6</grid>
     <grid name="lnd">gx1v6</grid>
