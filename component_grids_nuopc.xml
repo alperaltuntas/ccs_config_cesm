@@ -17,6 +17,30 @@
   <!-- ATM/LND meshes regional and global -->
   <!-- ======================================================== -->
 
+<domain name="simple1v1">
+    <nx>100</nx> <ny>50</ny>
+    <mesh>/glade/work/altuntas/cesm.sandboxes/cesm2_3_beta09_gui/visualCaseGen/external/mom6_bathy/notebooks/ESMF_mesh_gmom.nc</mesh>
+    <desc>A simple mesh generated with mom6_bathy</desc>
+    <support>Experimental for MOM6 experiments</support>
+  </domain>
+  <domain name="custom_atm">
+    <nx>10</nx> <ny>10</ny>
+    <mesh>/foo</mesh>
+    <desc>A placeholder for custom atm domains</desc>
+    <support>Experimental for MOM6 experiments</support>
+  </domain>
+  <domain name="custom_ocn">
+    <nx>10</nx> <ny>10</ny>
+    <mesh>/foo</mesh>
+    <desc>A placeholder for custom ocn domains</desc>
+    <support>Experimental for MOM6 experiments</support>
+  </domain>
+  <domain name="custom_lnd">
+    <nx>10</nx> <ny>10</ny>
+    <mesh>/foo</mesh>
+    <desc>A placeholder for custom lnd domains</desc>
+    <support>Experimental for MOM6 experiments</support>
+  </domain>
   <domain name="360x720cru">
     <nx>720</nx> <ny>360</ny>
     <mesh>$DIN_LOC_ROOT/share/meshes/360x720_120830_ESMFmesh_c20210507.nc</mesh>
