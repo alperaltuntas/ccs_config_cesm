@@ -198,7 +198,7 @@
     <grid name="lnd">T31</grid>
     <grid name="ocnice">gx3v7</grid>
     <mask>gx3v7</mask>
-    <desc>Low resolution 96x48 ATM grid and 3-degree ocn grid.</desc>
+    <desc>Low resolution 96x48 ATM grid and 3-degree ocn grid (Eulerian Dycore).</desc>
   </model_grid>
 
   <model_grid alias="T31_g37_gris4" compset="_CISM">
@@ -238,7 +238,7 @@
     <grid name="lnd">T42</grid>
     <grid name="ocnice">T42</grid>
     <mask>gx1v7</mask>
-    <desc>T42 (128x64) Gaussian ATM grid</desc>
+    <desc>T42 (128x64) Gaussian ATM grid (Eulerian Dycore).</desc>
   </model_grid>
 
   <model_grid alias="T42_T42_mg16" not_compset="_POP">
@@ -970,7 +970,7 @@
     <grid name="lnd">ne30np4</grid>
     <grid name="ocnice">ne30np4</grid>
     <mask>gx1v7</mask>
-    <desc>Spectral Element 1 degree grid</desc>
+    <desc>Spectral Element 1-deg grid and 1-deg POP grid.</desc>
   </model_grid>
 
   <model_grid alias="ne60_g16">
@@ -985,6 +985,7 @@
     <grid name="lnd">ne60np4</grid>
     <grid name="ocnice">gx1v7</grid>
     <mask>gx1v7</mask>
+    <desc>Spectral Element 1/2-deg grid and 1-deg POP grid.</desc>
   </model_grid>
 
   <model_grid alias="ne60_ne60_mg16" not_compset="_POP">
@@ -1006,6 +1007,7 @@
     <grid name="lnd">ne120np4</grid>
     <grid name="ocnice">gx1v7</grid>
     <mask>gx1v7</mask>
+    <desc>Spectral Element 1/4-deg grid and 1-deg POP grid.</desc>
   </model_grid>
 
   <model_grid alias="ne120_t12">
